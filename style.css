@@ -150,7 +150,7 @@ body {
 @media (max-width: 534px) {
     .main {
         margin-left: 0%;
-        background-color: rgb(17, 17, 31);
+        background-color: #085899;
         height: 100vh;
     }
 
