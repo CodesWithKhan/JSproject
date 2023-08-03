@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CWK Weather</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="topbar">
+            <h1 class="h1">CWK Weather</h1>
+            <div class="mainsearch">
+                <div class="searchbar">
+                    <input id="searchv" type="text" placeholder="Enter City Name">
+                </div>
+                <div class="search">
+                    <button type="submit">
+                        <img onclick="showData()" src="images/search.png" alt="search">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="buttombar">
+            <h2 class="degree">29`c</h2>
+            <img class="weather-icon" src="" alt="icon">
+            <div class="city">city name</div>
+            <div class="buttoncontent">
+                <div class="humidity"></div>
+                <div class="wind">wind_kph </div>
+            </div>
+            <div class="wind_dir">wind_direction:  </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
