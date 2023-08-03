@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #4fa07a98;
+    background-color: #085899;
 }
 
 
@@ -21,7 +21,7 @@ body {
 }
 
 .searchbar input {
-    width: 323px;
+    width: 320px;
     height: 7vh;
     background-color: #6c678d;
     text-align: center;
@@ -33,7 +33,7 @@ body {
 
 .search {
     right: 492px;
-    top: 116px;
+    top: 115.5px;
 }
 
 .mainsearch {
